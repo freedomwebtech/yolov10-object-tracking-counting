@@ -1,3 +1,0 @@
-https://mega.nz/file/dtUEDC5K#zOa1uOFLNWhOR5nrNFFt9sOXdrcvWWiOoagUND9jhvQ
-
-git clone https://github.com/THU-MIG/yolov10.git
