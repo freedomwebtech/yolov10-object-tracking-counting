@@ -72,7 +72,7 @@ while True:
         if cy1<(cy+offset) and cy1>(cy-offset): 
             cvzone.putTextRect(frame, f'{id}', (x3, y3), 1, 1)
             cv2.rectangle(frame, (x3, y3), (x4, y4), (0, 0, 255), 2)
-            if id not in listcardown:
+            if listcardown.count(id)==0:
                 listcardown.append(id)
                 # Crop and save the car image
                 car_image = frame[y3:y4, x3:x4]
