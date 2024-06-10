@@ -58,22 +58,22 @@ while True:
         cvzone.putTextRect(frame,f'{id}',(x3,y3),1,1)
         cv2.rectangle(frame,(x3,y3),(x4,y4),(0,255,0),2)
 
-        if cy1<(cy+offset) and cy1>(cy-offset):
-           cvzone.putTextRect(frame,f'{id}',(x3,y3),1,1)
-           cv2.rectangle(frame,(x3,y3),(x4,y4),(0,0,255),2)
-           if listcardown.count(id)==0:
-              listcardown.append(id)
+ #       if cy1<(cy+offset) and cy1>(cy-offset):
+ #          cvzone.putTextRect(frame,f'{id}',(x3,y3),1,1)
+ #          cv2.rectangle(frame,(x3,y3),(x4,y4),(0,0,255),2)
+ #          if listcardown.count(id)==0:
+ #             listcardown.append(id)
 
               
                  
                  
-    cv2.line(frame,(343,425),(961,425),(255,255,255),1)
+  #  cv2.line(frame,(343,425),(961,425),(255,255,255),1)
 
-    cardown=len(listcardown)
+  #  cardown=len(listcardown)
    
     
 
-    cvzone.putTextRect(frame,f'Cardown:-{cardown}',(50,60),2,2)
+   # cvzone.putTextRect(frame,f'Cardown:-{cardown}',(50,60),2,2)
     
     
     cv2.imshow("RGB", frame)
