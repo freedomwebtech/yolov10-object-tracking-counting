@@ -23,7 +23,7 @@ class_list = data.split("\n")
 tracker=Tracker()
 cy1=425
 offset=6
-down={}
+
 listcardown=[]
 count=0
 while True:
